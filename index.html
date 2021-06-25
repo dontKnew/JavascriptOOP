@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>Ticket Book</title>
+</head>
+<body>
+    <h1>Online Ticket Book System</h1>
+    <form action="" class="ticket-form">
+            <input type="text" placeholder="Enter your name..." id="u_name" required>
+            <input type="email" placeholder="Enter your email..." id="u_email" required>
+            <input type="number" placeholder="Enter your number..." id="u_number" required>
+            <input type="date" id="u_date" placeholder = "date" required>
+            <input type="submit" value="BOOK TICKET" id="submit">
+    </form>
+
+    <table id="ticketTable">
+        <tr>
+            <th>Customer Name</th>
+            <th>Customer Email</th>
+            <th>Customer Phone Number</th>
+            <th>Travel Date</th>
+        </tr>
+    </table>
+    <!-- <div class="footer">
+        <p>&copy Terms & condition apply <br>Created by Sajid 2021</p>
+    </div> -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+</body>
+</html>
